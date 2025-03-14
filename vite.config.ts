@@ -4,10 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './',
-  build: {
-    rollupOptions: {
-      input: '/src/main.tsx', // Ensure correct entry point
-    },
+  optimizeDeps: {
+    exclude: ['lucide-react'],
   },
 });
