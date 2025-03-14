@@ -49,7 +49,7 @@ function App() {
   {
       title: '> SECRET DEVOPS LAB',
       url: 'https://www.devopslab.vercel.app'
-    }
+    },
   {
       title: '> SECRET BLOG LAB',
       url: 'https://dev.to/ayazmirza54'
@@ -57,7 +57,7 @@ function App() {
 {
 title: '> SECRET SKILLS FOUNDARY',
 url: 'https://ayazmirza.vercel.app#skills'
-}
+},
 {
 title: '> WORK KEX.LOG'
 url: 'https://ayazmirza.vercel.app#workexp'
