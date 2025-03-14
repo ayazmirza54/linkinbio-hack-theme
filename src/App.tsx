@@ -59,7 +59,7 @@ title: '> SECRET SKILLS FOUNDARY',
 url: 'https://ayazmirza.vercel.app#skills'
 },
 {
-title: '> WORK KEX.LOG'
+title: '> WORK KEX.LOG',
 url: 'https://ayazmirza.vercel.app#workexp'
 }
   ]);
