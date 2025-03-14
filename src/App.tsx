@@ -41,7 +41,27 @@ function App() {
     {
       title: '> SECRET_PROJECTS',
       url: 'https://www.aigadgets.show'
+    },
+   {
+      title: '> SECRET AI LAB',
+      url: 'https://www.aigadgets.show'
+    },
+  {
+      title: '> SECRET DEVOPS LAB',
+      url: 'https://www.devopslab.vercel.app'
     }
+  {
+      title: '> SECRET BLOG LAB',
+      url: 'https://dev.to/ayazmirza54'
+    },
+{
+title: '> SECRET SKILLS FOUNDARY',
+url: 'https://ayazmirza.vercel.app#skills'
+}
+{
+title: '> WORK KEX.LOG'
+url: 'https://ayazmirza.vercel.app#workexp'
+}
   ]);
 
   const [socials] = useState([
