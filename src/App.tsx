@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Terminal, Github, Mail, Link as LinkIcon, ChevronRight, Globe2Icon } from 'lucide-react';
-import image from './assets/profile.png';
+import image from '@/assets/profile.png';
 function App() {
   const [glitchText, setGlitchText] = useState('');
   const originalText = '> HACKER_PROFILE.EXE';
