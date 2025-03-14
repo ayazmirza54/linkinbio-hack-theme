@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Terminal, Github, Mail, Link as LinkIcon, ChevronRight } from 'lucide-react';
+import { Terminal, Github, Mail, Link as LinkIcon, ChevronRight, Globe2Icon } from 'lucide-react';
 import image from './assets/profile.png';
 function App() {
   const [glitchText, setGlitchText] = useState('');
@@ -64,6 +64,11 @@ function App() {
       icon: LinkIcon,
       url: 'https://www.linkedin.com/in/ayazmirza54/',
       label: 'Encrypted Channel'
+    },
+    {
+      icon: Globe2Icon,
+      url: 'http://g.dev/ayazmirza54',
+      label: 'Google dev profile'
     }
   ]);
 
