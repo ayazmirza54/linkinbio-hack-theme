@@ -3,7 +3,7 @@ import { Terminal, Github, Mail, Link as LinkIcon, ChevronRight, Globe2Icon } fr
 import image from './assets/profile.png';
 function App() {
   const [glitchText, setGlitchText] = useState('');
-  const originalText = '> HACKER_PROFILE.EXE';
+  const originalText = '> AYAZMIRZA54.EXE';
 
   useEffect(() => {
     const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%^&*';
