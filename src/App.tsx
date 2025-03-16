@@ -3,7 +3,7 @@ import { Terminal, Github, Mail, Link as LinkIcon, ChevronRight, Globe2Icon } fr
 import image from './assets/profile.png';
 function App() {
   const [glitchText, setGlitchText] = useState('');
-  const originalText = '> AYAZMIRZA54.EXE';
+  const originalText = '> AYAZMIRZA54.LINKS 🔗';
 
   useEffect(() => {
     const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%^&*';
@@ -36,7 +36,7 @@ function App() {
   const [links] = useState([
     {
       title: '> EXPLOIT_DATABASE',
-      url: 'https://ayazmirza.vercel.app'
+      url: 'https://query-smith.streamlit.app/'
     },
     {
       title: '> SECRET_PROJECTS',
