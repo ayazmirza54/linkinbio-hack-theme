@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        mono: ['Courier New', 'monospace'],
+        mono: ['JetBrains Mono', 'monospace'],
       },
       animation: {
         fall: 'fall 3s linear infinite',

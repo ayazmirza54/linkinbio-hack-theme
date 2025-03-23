@@ -2,15 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 @layer base {
   body {
     @apply antialiased bg-black;
   }
 }
-
+body{
+ 
+  font-family: 'JetBrains Mono', monospace;
+}
 @layer utilities {
   .text-glow {
-    text-shadow: 0 0 2px #4AF626, 0 0 4px #4AF626, 0 0 3px #4AF626;
+    text-shadow: 0 0 1px #4AF626, 0 0 2px #4AF626, 0 0 1px #4AF626;
   }
   
   .border-glow {
@@ -23,6 +27,11 @@
       rgba(74,246,38,0.1) 100%
     );
   }
+}
+
+/* Material UI Specific Styles */
+.MuiCard-root:hover .chevron-icon {
+  transform: translateX(4px);
 }
 
 @keyframes glitch {
