@@ -17,20 +17,20 @@ const materialTheme = createTheme({
   typography: {
     fontFamily: [
       'JetBrains Mono',
-      'monospace',
+     ,
     ].join(','),
     button: {
-      fontFamily: 'JetBrains Mono, monospace',
+      fontFamily: 'JetBrains Mono',
     },
     body1: {
-      fontFamily: 'JetBrains Mono, monospace',
+      fontFamily: 'JetBrains Mono',
     },
     h4: {
-      fontFamily: 'JetBrains Mono, monospace',
+      fontFamily: 'JetBrains Mono',
       fontWeight: 700,
     },
     h6: {
-      fontFamily: 'JetBrains Mono, monospace',
+      fontFamily: 'JetBrains Mono',
     },
   },
   components: {
